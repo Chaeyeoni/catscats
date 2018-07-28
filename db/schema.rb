@@ -20,4 +20,11 @@ ActiveRecord::Schema.define(version: 20180728024821) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "danches", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "numb"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
 end
